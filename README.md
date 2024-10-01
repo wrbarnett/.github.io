@@ -59,7 +59,7 @@ To get started, clone this repository and install the required R packages:
 
 ```r
 # Clone the repository
-git clone https://github.com/wrbarnett/github.io
+git clone https://github.com/wrbarnett/.github.io.git
 setwd("coding-examples")
 
 # Install required packages
