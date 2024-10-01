@@ -1,4 +1,3 @@
-library(survival)
 library(rms)
 
 dat1=read.csv("vae_186.csv")
