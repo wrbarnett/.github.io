@@ -24,8 +24,10 @@ This repository serves as a practical resource for understanding and implementin
 - R
 - tidyverse
 - survival (for Cox Regression)
+- rms (for Cox and Logistics Regressions)
 - caret (for Logistic Regression and Naive Bayes)
-- e1071 (for Naive Bayes)
+- klaR (for Naive Bayes)
+- qwraps2 (for confusion matrices)
 - ggplot2 (for visualization)
 
 ## Examples
@@ -34,21 +36,21 @@ This repository serves as a practical resource for understanding and implementin
 
 This example demonstrates the implementation of the Cox Proportional Hazards model for survival analysis. It includes data preprocessing, model fitting, and evaluation.
 
-- **File**: `cox_reg`
+- **File**: `cox_reg.R`
 - **Description**: Analyze survival data and visualize the results.
 
 ### Logistic Regression
 
 This example covers the Logistic Regression model for binary classification tasks. The example includes data preparation, model training, and performance metrics.
 
-- **File**: `log_reg`
+- **File**: `log_reg.R`
 - **Description**: Predict binary outcomes and evaluate model accuracy.
 
 ### Naive Bayes Classifier
 
 This example illustrates the Naive Bayes classifier, particularly suited for text classification. The example showcases data handling and classification metrics.
 
-- **File**: `nb_classifier`
+- **File**: `nb_class.R`
 - **Description**: Classify text data and assess the model’s performance.
 
 ## Installation
@@ -61,7 +63,8 @@ git clone https://github.com/yourusername/coding-examples.git
 setwd("coding-examples")
 
 # Install required packages
-install.packages(c("tidyverse", "survival", "caret", "e1071", "ggplot2"))
+install.packages(c("tidyverse", "survival", "caret", "rms", "klaR", "qwraps", "ggplot2"))
+
 ```
 
 ## Usage
@@ -69,7 +72,7 @@ install.packages(c("tidyverse", "survival", "caret", "e1071", "ggplot2"))
 Each example can be run individually. For instance, to run the logistic regression example:
 
 ```r
-source("logistic_regression.R")
+source("log_reg.R")
 ```
 
 Make sure to check the comments in each script for detailed explanations and guidance.
