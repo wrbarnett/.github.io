@@ -13,6 +13,6 @@ vae_type_label <- vae_type %>%
 
 ggplot(vae_type_label, aes(x = vae_type)) +
   geom_bar(fill = "skyblue") +
-  labs(title = "Distribution of Outcomes on Ventilator", x = "VAE Type", y = "Count")
+  labs(title = "Distribution of Outcomes on Mechanical Ventilation", x = "VAE Type", y = "Count")
 
 rm(dat1)
