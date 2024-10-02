@@ -53,6 +53,13 @@ This example illustrates the Naive Bayes classifier, particularly suited for tex
 - **File**: `nb_class.R`
 - **Description**: Classify text data and assess the model’s performance.
 
+### tidyverse and ggplot2
+
+This example demonstrates the use of the 'pipe' operator and the creation of a bar chart.
+
+- **File**: 'pipe_chart.R'
+- **Description**: This script processes the data to visualize of data. It utilizes dplyr for data manipulation and ggplot2 for plotting.
+
 ## Installation
 
 To get started, clone this repository and install the required R packages:
