@@ -57,7 +57,7 @@ This example illustrates the Naive Bayes classifier, particularly suited for tex
 
 This example demonstrates the use of the 'pipe' operator and the creation of a bar chart.
 
-- **File**: 'pipe_chart.R'
+- **File**: `pipe_chart.R`
 - **Description**: This script processes the data to visualize of data. It utilizes dplyr for data manipulation and ggplot2 for plotting.
 
 ## Installation
