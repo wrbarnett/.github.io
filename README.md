@@ -10,6 +10,7 @@ This repository contains a collection of examples demonstrating various statisti
   - [Cox Regression](#cox-regression)
   - [Logistic Regression](#logistic-regression)
   - [Naive Bayes Classifier](#naive-bayes-classifier)
+  - [tidyverse and ggplot2](#tidyverse-ggplot2)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
