@@ -12,7 +12,7 @@ This repository contains a collection of examples demonstrating various statisti
   - [Naive Bayes Classifier](#naive-bayes-classifier)
   - [tidyverse and ggplot2](#tidyverse-ggplot2)
   - [SQL](#sql)
-  - [Python](#data-cleaning-in-python)
+  - [Data Cleaning in Python](#data-cleaning-in-python)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -76,7 +76,7 @@ This example demonstrates the use of the 'pipe' operator and the creation of a b
 This example demonstrates how to create a table and import data from a CSV file into a PostgreSQL database.
 
 - **File**: `create.sql`
-- **Description**: This script perfoms data cleaning tasks such as handling missing values and formatting data for analysis.
+- **Description**: This script creates a table with demographic and clinical variables, then populates it using data from a CSV file.
 ---
 
 ### Data cleaning in Python
@@ -84,7 +84,7 @@ This example demonstrates how to create a table and import data from a CSV file 
 This example demonstrates basic data cleaning techniques using Python.
 
 - **File**: `data_cleaning.py`
-- **Description**: This script creates a table with demographic and clinical variables, then populates it using data from a CSV file.
+- **Description**: This script performs data cleaning tasks such as handling missing values and formatting data for analysis.
 
 ### 
 ## Installation
