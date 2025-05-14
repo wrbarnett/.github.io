@@ -12,7 +12,7 @@ This repository contains a collection of examples demonstrating various statisti
   - [Naive Bayes Classifier](#naive-bayes-classifier)
   - [tidyverse and ggplot2](#tidyverse-ggplot2)
   - [SQL](#sql)
-  - [Python](#data_cleaning-in-pyhton)
+  - [Python](#data-cleaning-in-python)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
