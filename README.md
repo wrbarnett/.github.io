@@ -11,6 +11,8 @@ This repository contains a collection of examples demonstrating various statisti
   - [Logistic Regression](#logistic-regression)
   - [Naive Bayes Classifier](#naive-bayes-classifier)
   - [tidyverse and ggplot2](#tidyverse-ggplot2)
+  - [SQL](#sql)
+  - [Python](#data_cleaning-in-pyhton)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -31,10 +33,12 @@ This repository serves as a practical resource for understanding and implementin
 - qwraps2 (for confusion matrices)
 - ggplot2 (for visualization)
 
--Python
--Pandas (for data manipulation and analysis)
--Numpy (for numerical computering)
--SimpleImputer (for handling missing data)
+- SQL
+
+- Python
+- Pandas (for data manipulation and analysis)
+- Numpy (for numerical computing)
+- SimpleImputer (for handling missing data)
 
 ## Examples
 
