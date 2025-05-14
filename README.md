@@ -1,6 +1,6 @@
 # Coding Examples Repository
 
-This repository contains a collection of examples demonstrating various statistical modeling techniques using R. Currently, it includes implementations of Cox Regression, Logistic Regression, and Naive Bayes Classifier.
+This repository contains a collection of examples demonstrating various statistical modeling techniques using R and Python. Currently, it includes implementations of Cox Regression, Logistic Regression, and Naive Bayes Classifier.
 
 ## Table of Contents
 
@@ -31,6 +31,11 @@ This repository serves as a practical resource for understanding and implementin
 - qwraps2 (for confusion matrices)
 - ggplot2 (for visualization)
 
+-Python
+-Pandas (for data manipulation and analysis)
+-Numpy (for numerical computering)
+-SimpleImputer (for handling missing data)
+
 ## Examples
 
 ### Cox Regression
@@ -60,7 +65,24 @@ This example demonstrates the use of the 'pipe' operator and the creation of a b
 
 - **File**: `pipe_chart.R`
 - **Description**: This script processes the data to visualize of data. It utilizes dplyr for data manipulation and ggplot2 for plotting.
+  
+---
+### SQL
 
+This example demonstrates how to create a table and import data from a CSV file into a PostgreSQL database.
+
+- **File**: `create.sql`
+- **Description**: This script perfoms data cleaning tasks such as handling missing values and formatting data for analysis.
+---
+
+### Data cleaning in Python
+
+This example demonstrates basic data cleaning techniques using Python.
+
+- **File**: `data_cleaning.py`
+- **Description**: This script creates a table with demographic and clinical variables, then populates it using data from a CSV file.
+
+### 
 ## Installation
 
 To get started, clone this repository and install the required R packages:
@@ -73,6 +95,8 @@ setwd("coding-examples")
 # Install required packages
 install.packages(c("tidyverse", "survival", "caret", "rms", "klaR", "qwraps", "ggplot2"))
 
+#Install libraries
+pip install pandas numpy scikit-learn
 ```
 
 ## Usage
