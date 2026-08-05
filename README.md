@@ -77,6 +77,10 @@ This example demonstrates how to create a table and import data from a CSV file 
 
 - **File**: `create.sql`
 - **Description**: This script creates a table with demographic and clinical variables, then populates it using data from a CSV file.
+
+- **File**: `extract.sql`
+- **Description**: Extracts a cohort of adult ICU patients with demographics, comorbidities, sepsis status, mechanical ventilation, and hospitalization characteristics.
+  
 ---
 
 ### Data cleaning in Python
